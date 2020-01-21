@@ -1,0 +1,7 @@
+*.class
+bin
+build
+.gradle
+org.eclipse.buildship.core.prefs
+.project
+.classpath

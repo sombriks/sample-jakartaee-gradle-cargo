@@ -1,0 +1,29 @@
+plugins {
+    id "war"
+    id "com.bmuschko.cargo" version "2.7.0" 
+}
+
+cargo {
+  // Configures which commands require a built artifact
+  cargoRunLocal.dependsOn war
+  cargoStartLocal.dependsOn war
+  cargoRedeployLocal.dependsOn war
+    
+  containerId = 'glassfish5x'
+    
+  // Define deploy artifact properties
+  deployable {
+    context = "/"
+  }
+    
+  // Only necessary for local commands
+  local {
+    homeDir = file(payaraHome)
+  }
+}
+
+dependencies {
+  
+  cargo 'org.glassfish.main.deployment:deployment-client:5.0'
+  cargo 'org.codehaus.cargo:cargo-ant:1.6.8'
+}

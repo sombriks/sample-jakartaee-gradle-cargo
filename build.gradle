@@ -1,0 +1,14 @@
+// root config  
+allprojects {
+  repositories {
+    jcenter() 
+    mavenCentral()
+    maven {
+      url "https://maven.java.net/content/repositories/promoted/"
+    }
+  }
+}
+
+subprojects {
+  version = '1.0'
+}
