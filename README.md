@@ -17,7 +17,7 @@ Run at least once:
 gradle cargoConfigureLocal
 ```
 
-Aftter that, run:
+After that, run:
 
 ```bash
 gradle cargoRunLocal
@@ -36,8 +36,8 @@ breaking things with tears of joy.
 
 ## Why cargo
 
-Because no unsung here did a decent infrastructure for java app containers on 
+Because no unsung hero did a decent infrastructure for java app containers on 
 visual studio code, therefore the build systems must cover the gap.
 
-Also ii want to believe that _springboot_ isn't the only way. I like my 
+Also i want to believe that _springboot_ isn't the only way. I like my 
 kbyte-scale war file.
