@@ -3,6 +3,8 @@ plugins {
     id "com.bmuschko.cargo" version "2.7.0" 
 }
 
+ext.payaraHome = "$System.env.HOME"+"/payara5"
+
 cargo {
   // Configures which commands require a built artifact
   cargoRunLocal.dependsOn war
@@ -19,6 +21,8 @@ cargo {
   // Only necessary for local commands
   local {
     homeDir = file(payaraHome)
+    logLevel = 'high'
+    logFile = file('payara.log')
   }
 }
 
@@ -26,4 +30,13 @@ dependencies {
   
   cargo 'org.glassfish.main.deployment:deployment-client:5.0'
   cargo 'org.codehaus.cargo:cargo-ant:1.6.8'
+
+  testCompile 'junit:junit:4.12'
+
+  compile project(':module-a')
+  compile project(':module-b')
+  
+  // https://mvnrepository.com/artifact/javax/javaee-api
+  providedCompile group: 'javax', name: 'javaee-api', version: '8.0.1'
+
 }

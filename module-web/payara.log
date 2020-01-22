@@ -1,0 +1,104 @@
+[22:54:38.561][info][talledLocalContainer] GlassFish 5.x starting...
+[22:54:39.809][info][talledLocalContainer] Using port 4848 for Admin.
+[22:54:39.810][info][talledLocalContainer] Using port 8080 for HTTP Instance.
+[22:54:39.810][info][talledLocalContainer] Using port 7676 for JMS.
+[22:54:39.810][info][talledLocalContainer] Using port 3700 for IIOP.
+[22:54:39.810][info][talledLocalContainer] Using port 8181 for HTTP_SSL.
+[22:54:39.810][info][talledLocalContainer] Using port 3820 for IIOP_SSL.
+[22:54:39.810][info][talledLocalContainer] Using port 3920 for IIOP_MUTUALAUTH.
+[22:54:39.810][info][talledLocalContainer] Using port 8686 for JMX_ADMIN.
+[22:54:39.810][info][talledLocalContainer] Using port 6666 for OSGI_SHELL.
+[22:54:39.810][info][talledLocalContainer] Using port 9009 for JAVA_DEBUGGER.
+[22:54:39.810][info][talledLocalContainer] Using default port 4900 for Hazelcast DAS.
+[22:54:39.810][info][talledLocalContainer] Using default port 5900 for Hazelcast Start.
+[22:54:39.810][info][talledLocalContainer] Distinguished Name of the self-signed X.509 Server Certificate is:
+[22:54:39.810][info][talledLocalContainer] [CN=ramza,OU=Payara,O=Payara Foundation,L=Great Malvern,ST=Worcestershire,C=UK]
+[22:54:41.813][info][talledLocalContainer] Distinguished Name of the self-signed X.509 Server Certificate is:
+[22:54:41.813][info][talledLocalContainer] [CN=ramza-instance,OU=Payara,O=Payara Foundation,L=Great Malvern,ST=Worcestershire,C=UK]
+[22:54:53.002][info][talledLocalContainer] Domain cargo-domain created.
+[22:54:53.002][info][talledLocalContainer] Domain cargo-domain admin port is 4848.
+[22:54:53.002][info][talledLocalContainer] Domain cargo-domain admin user is "admin".
+[22:54:53.002][info][talledLocalContainer] Command create-domain executed successfully.
+[22:55:02.494][info][talledLocalContainer] Waiting for cargo-domain to start ........
+[22:55:02.495][info][talledLocalContainer] Successfully started the domain : cargo-domain
+[22:55:02.496][info][talledLocalContainer] domain  Location: /tmp/cargo/conf/cargo-domain
+[22:55:02.497][info][talledLocalContainer] Log File: /tmp/cargo/conf/cargo-domain/logs/server.log
+[22:55:02.497][info][talledLocalContainer] Admin Port: 4848
+[22:55:02.498][info][talledLocalContainer] Command start-domain executed successfully.
+[22:55:05.489][info][talledLocalContainer] JDBC resource jdbc/__default deleted successfully
+[22:55:05.489][info][talledLocalContainer] Command delete-jdbc-resource executed successfully.
+[22:55:06.897][info][talledLocalContainer] Command delete-jdbc-connection-pool failed.
+[22:55:06.908][info][talledLocalContainer] remote failure: Some jdbc resources or persistence manager factory resources are referencing this connection pool. Use cascade option to delete them as well.
+[22:55:07.995][info][talledLocalContainer] JDBC Connection pool DerbyPool deleted successfully
+[22:55:07.995][info][talledLocalContainer] Command delete-jdbc-connection-pool executed successfully.
+[22:55:09.846][info][talledLocalContainer] Application deployed with name module-web-1.0.
+[22:55:09.846][info][talledLocalContainer] Command deploy executed successfully.
+[22:55:10.886][info][talledLocalContainer] Application deployed with name cargocpc.
+[22:55:10.887][info][talledLocalContainer] Command deploy executed successfully.
+[22:55:11.184][info][talledLocalContainer] GlassFish 5.x started on port [8080]
+[22:56:36.169][info][talledLocalContainer] Application deployed with name module-web-1.0.
+[22:56:36.170][info][talledLocalContainer] Command deploy executed successfully.
+[22:58:59.386][info][talledLocalContainer] Application deployed with name module-web-1.0.
+[22:58:59.386][info][talledLocalContainer] Command deploy executed successfully.
+[23:00:07.092][info][talledLocalContainer] Application deployed with name module-web-1.0.
+[23:00:07.092][info][talledLocalContainer] Command deploy executed successfully.
+[23:00:48.552][info][talledLocalContainer] Application deployed with name module-web-1.0.
+[23:00:48.552][info][talledLocalContainer] Command deploy executed successfully.
+[23:01:05.680][info][talledLocalContainer] Application deployed with name module-web-1.0.
+[23:01:05.680][info][talledLocalContainer] Command deploy executed successfully.
+[23:01:40.795][info][talledLocalContainer] Application deployed with name module-web-1.0.
+[23:01:40.795][info][talledLocalContainer] Command deploy executed successfully.
+[23:03:17.295][info][talledLocalContainer] Application deployed with name module-web-1.0.
+[23:03:17.295][info][talledLocalContainer] Command deploy executed successfully.
+[23:03:43.315][info][talledLocalContainer] Application deployed with name module-web-1.0.
+[23:03:43.315][info][talledLocalContainer] Command deploy executed successfully.
+[23:03:53.599][info][talledLocalContainer] Application deployed with name module-web-1.0.
+[23:03:53.599][info][talledLocalContainer] Command deploy executed successfully.
+[23:04:28.335][info][talledLocalContainer] Application deployed with name module-web-1.0.
+[23:04:28.335][info][talledLocalContainer] Command deploy executed successfully.
+[23:05:20.940][info][talledLocalContainer] Application deployed with name module-web-1.0.
+[23:05:20.940][info][talledLocalContainer] Command deploy executed successfully.
+[23:06:37.114][info][talledLocalContainer] Application deployed with name module-web-1.0.
+[23:06:37.114][info][talledLocalContainer] Command deploy executed successfully.
+[23:07:37.536][info][talledLocalContainer] GlassFish 5.x is stopping...
+[23:07:38.737][info][talledLocalContainer] CLI306: Warning - The server located at /tmp/cargo/conf/cargo-domain is not running. 
+[23:07:38.737][info][talledLocalContainer] No domains are currently running.
+[23:07:38.737][info][talledLocalContainer] Command stop-domain failed.
+[23:07:59.618][info][talledLocalContainer] GlassFish 5.x starting...
+[23:08:00.785][info][talledLocalContainer] Using port 4848 for Admin.
+[23:08:00.786][info][talledLocalContainer] Using port 8080 for HTTP Instance.
+[23:08:00.787][info][talledLocalContainer] Using port 7676 for JMS.
+[23:08:00.787][info][talledLocalContainer] Using port 3700 for IIOP.
+[23:08:00.787][info][talledLocalContainer] Using port 8181 for HTTP_SSL.
+[23:08:00.787][info][talledLocalContainer] Using port 3820 for IIOP_SSL.
+[23:08:00.787][info][talledLocalContainer] Using port 3920 for IIOP_MUTUALAUTH.
+[23:08:00.788][info][talledLocalContainer] Using port 8686 for JMX_ADMIN.
+[23:08:00.788][info][talledLocalContainer] Using port 6666 for OSGI_SHELL.
+[23:08:00.788][info][talledLocalContainer] Using port 9009 for JAVA_DEBUGGER.
+[23:08:00.788][info][talledLocalContainer] Using default port 4900 for Hazelcast DAS.
+[23:08:00.788][info][talledLocalContainer] Using default port 5900 for Hazelcast Start.
+[23:08:00.888][info][talledLocalContainer] Distinguished Name of the self-signed X.509 Server Certificate is:
+[23:08:00.890][info][talledLocalContainer] [CN=ramza,OU=Payara,O=Payara Foundation,L=Great Malvern,ST=Worcestershire,C=UK]
+[23:08:02.893][info][talledLocalContainer] Distinguished Name of the self-signed X.509 Server Certificate is:
+[23:08:02.894][info][talledLocalContainer] [CN=ramza-instance,OU=Payara,O=Payara Foundation,L=Great Malvern,ST=Worcestershire,C=UK]
+[23:08:13.895][info][talledLocalContainer] Domain cargo-domain created.
+[23:08:13.895][info][talledLocalContainer] Domain cargo-domain admin port is 4848.
+[23:08:13.895][info][talledLocalContainer] Domain cargo-domain admin user is "admin".
+[23:08:13.895][info][talledLocalContainer] Command create-domain executed successfully.
+[23:08:22.053][info][talledLocalContainer] Waiting for cargo-domain to start .......
+[23:08:22.054][info][talledLocalContainer] Successfully started the domain : cargo-domain
+[23:08:22.055][info][talledLocalContainer] domain  Location: /tmp/cargo/conf/cargo-domain
+[23:08:22.056][info][talledLocalContainer] Log File: /tmp/cargo/conf/cargo-domain/logs/server.log
+[23:08:22.056][info][talledLocalContainer] Admin Port: 4848
+[23:08:22.057][info][talledLocalContainer] Command start-domain executed successfully.
+[23:08:24.561][info][talledLocalContainer] JDBC resource jdbc/__default deleted successfully
+[23:08:24.561][info][talledLocalContainer] Command delete-jdbc-resource executed successfully.
+[23:08:25.720][info][talledLocalContainer] Command delete-jdbc-connection-pool failed.
+[23:08:25.734][info][talledLocalContainer] remote failure: Some jdbc resources or persistence manager factory resources are referencing this connection pool. Use cascade option to delete them as well.
+[23:08:26.786][info][talledLocalContainer] JDBC Connection pool DerbyPool deleted successfully
+[23:08:26.786][info][talledLocalContainer] Command delete-jdbc-connection-pool executed successfully.
+[23:08:34.008][info][talledLocalContainer] Application deployed with name module-web-1.0.
+[23:08:34.009][info][talledLocalContainer] Command deploy executed successfully.
+[23:08:34.691][info][talledLocalContainer] Application deployed with name cargocpc.
+[23:08:34.692][info][talledLocalContainer] Command deploy executed successfully.
+[23:08:34.993][info][talledLocalContainer] GlassFish 5.x started on port [8080]
