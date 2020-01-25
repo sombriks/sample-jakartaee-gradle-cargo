@@ -4,4 +4,6 @@ plugins {
 
 dependencies {
   testCompile 'junit:junit:4.12'
+  // https://mvnrepository.com/artifact/javax/javaee-api
+  compileClasspath group: 'javax', name: 'javaee-api', version: '8.0.1'
 }

@@ -6,3 +6,6 @@ org.eclipse.buildship.core.prefs
 .project
 .classpath
 payara.log
+gradlew*
+.idea
+gradle
