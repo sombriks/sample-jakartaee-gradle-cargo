@@ -9,3 +9,4 @@ payara.log
 gradlew*
 .idea
 gradle
+.settings
